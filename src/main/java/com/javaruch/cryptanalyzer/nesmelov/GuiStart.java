@@ -78,7 +78,7 @@ public class GuiStart {
             laval6.setFont(new Font("Arial", Font.ITALIC, 20));
             panel.add(laval6);
 
-            JTextField tf3 = new JTextField( "output.txt",20);
+            JTextField tf3 = new JTextField( "encoded.txt",20);
             panel.add(tf3);
             JButton button =new JButton("Enter");
             panel.add(button);
@@ -120,7 +120,7 @@ button.addActionListener(new ActionListener() {
             JLabel laval2 = new JLabel("либо оставте файл по умочанию");
             laval2.setFont(new Font("Arial", Font.ITALIC, 20));
             panel.add(laval2);
-            JTextField tf1 = new JTextField( "output.txt",15);
+            JTextField tf1 = new JTextField( "encoded.txt",15);
             panel.add(tf1);
 
             JLabel laval3 = new JLabel("2. Введите ключ (это число) от 1 до 85  которое  ");
@@ -139,7 +139,7 @@ button.addActionListener(new ActionListener() {
             laval6.setFont(new Font("Arial", Font.ITALIC, 20));
             panel.add(laval6);
 
-            JTextField tf3 = new JTextField( "outrez.txt",20);
+            JTextField tf3 = new JTextField( "output.txt",20);
             panel.add(tf3);
             JButton button =new JButton("Enter");
             panel.add(button);
@@ -183,7 +183,7 @@ button.addActionListener(new ActionListener() {
             JLabel laval2 = new JLabel("либо оставте файл по умочанию");
             laval2.setFont(new Font("Arial", Font.ITALIC, 20));
             panel.add(laval2);
-            JTextField tf1 = new JTextField( "output.txt",15);
+            JTextField tf1 = new JTextField( "encoded.txt",15);
             panel.add(tf1);
             JLabel laval5 = new JLabel("2 Введите путь к файлу, куда запишется резкльтат   ");
             laval5.setFont(new Font("Arial", Font.ITALIC, 20));
@@ -192,7 +192,7 @@ button.addActionListener(new ActionListener() {
             laval6.setFont(new Font("Arial", Font.ITALIC, 20));
             panel.add(laval6);
 
-            JTextField tf3 = new JTextField( "outputBF.txt",20);
+            JTextField tf3 = new JTextField( "output.txt",20);
             panel.add(tf3);
             JButton button =new JButton("Enter");
             panel.add(button);
@@ -214,7 +214,7 @@ button.addActionListener(new ActionListener() {
             panel.revalidate();
             frame1.setResizable(false);
             frame1.setVisible(true);
-// Александр, честно, я сам не доволен таким громоздким кодом... но не смог по другому...
+// Александр, честно, я сам не доволен таким громоздким кодом... но знаний не хватает на "по другому"...
         }
     }
 }
