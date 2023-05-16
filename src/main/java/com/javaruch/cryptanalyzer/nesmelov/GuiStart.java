@@ -34,7 +34,6 @@ public class GuiStart {
 
         frame.add(panel);
         panel.revalidate();
-
         frame.setVisible(true);
 
     }
@@ -45,9 +44,7 @@ public class GuiStart {
         public void actionPerformed(ActionEvent e) {
            JFrame frame1  = new JFrame("Шифруем");
             frame1.setBounds(200, 100, 600, 300);
-            frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             JPanel panel = new JPanel();
-//            panel.setLayout();
 
             JLabel laval1 = new JLabel("1. Введите путь к файлу который нужно зашифровать");
             laval1.setFont(new Font("Arial", Font.ITALIC, 20));
@@ -57,6 +54,7 @@ public class GuiStart {
             panel.add(laval2);
 
             JTextField tf1 = new JTextField( "input.txt",15);
+            tf1.setFont(new Font("Arial", Font.BOLD, 15));
             panel.add(tf1);
 
             JLabel laval3 = new JLabel("2. Введите ключ  от 1 до 85 или оставьте число       ");
@@ -69,6 +67,7 @@ public class GuiStart {
             int key = (int) (Math.random()*85);
             String keyy= ""+key;
             JTextField tf2 = new JTextField( keyy,10);
+            tf2.setFont(new Font("Arial", Font.BOLD, 15));
             panel.add(tf2);
 
             JLabel laval5 = new JLabel("3 Введите путь к файлу, куда запишется резкльтат   ");
@@ -79,6 +78,7 @@ public class GuiStart {
             panel.add(laval6);
 
             JTextField tf3 = new JTextField( "encoded.txt",20);
+            tf3.setFont(new Font("Arial", Font.BOLD, 15));
             panel.add(tf3);
             JButton button =new JButton("Enter");
             panel.add(button);
@@ -99,7 +99,6 @@ button.addActionListener(new ActionListener() {
 
     }
 });
-
             frame1.add(panel);
             frame1.setResizable(false);
             frame1.setVisible(true);
@@ -111,7 +110,6 @@ button.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
             JFrame frame1  = new JFrame("Расшифровываем");
             frame1.setBounds(200, 100, 600, 300);
-            frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             JPanel panel = new JPanel();
 
             JLabel laval1 = new JLabel("1. Введите путь к файлу который нужно расшифровать");
@@ -121,6 +119,7 @@ button.addActionListener(new ActionListener() {
             laval2.setFont(new Font("Arial", Font.ITALIC, 20));
             panel.add(laval2);
             JTextField tf1 = new JTextField( "encoded.txt",15);
+            tf1.setFont(new Font("Arial", Font.BOLD, 15));
             panel.add(tf1);
 
             JLabel laval3 = new JLabel("2. Введите ключ (это число) от 1 до 85  которое  ");
@@ -130,6 +129,7 @@ button.addActionListener(new ActionListener() {
             laval4.setFont(new Font("Arial", Font.ITALIC, 20));
             panel.add(laval4);
             JTextField tf2 = new JTextField(10);
+            tf2.setFont(new Font("Arial", Font.BOLD, 15));
             panel.add(tf2);
 
             JLabel laval5 = new JLabel("3 Введите путь к файлу, куда запишется резкльтат   ");
@@ -140,6 +140,7 @@ button.addActionListener(new ActionListener() {
             panel.add(laval6);
 
             JTextField tf3 = new JTextField( "output.txt",20);
+            tf3.setFont(new Font("Arial", Font.BOLD, 15));
             panel.add(tf3);
             JButton button =new JButton("Enter");
             panel.add(button);
@@ -159,12 +160,10 @@ button.addActionListener(new ActionListener() {
 
                 }
             });
-
             frame1.add(panel);
             panel.revalidate();
             frame1.setResizable(false);
             frame1.setVisible(true);
-
         }
     }
 // И создание последнего диалогового окна для кнопки БрюФорс со сбором путей туда и оттуда
@@ -174,7 +173,6 @@ button.addActionListener(new ActionListener() {
         public void actionPerformed(ActionEvent e) {
             JFrame frame1  = new JFrame("Расшифровываем");
             frame1.setBounds(200, 100, 600, 300);
-            frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             JPanel panel = new JPanel();
 
             JLabel laval1 = new JLabel("1. Введите путь к файлу который нужно расшифровать");
@@ -183,16 +181,18 @@ button.addActionListener(new ActionListener() {
             JLabel laval2 = new JLabel("либо оставте файл по умочанию");
             laval2.setFont(new Font("Arial", Font.ITALIC, 20));
             panel.add(laval2);
-            JTextField tf1 = new JTextField( "encoded.txt",15);
+            JTextField tf1 = new JTextField( "encoded.txt",18);
+            tf1.setFont(new Font("Arial", Font.BOLD, 15));
             panel.add(tf1);
-            JLabel laval5 = new JLabel("2 Введите путь к файлу, куда запишется резкльтат   ");
+            JLabel laval5 = new JLabel("2 Введите путь к файлу, куда запишется результат   ");
             laval5.setFont(new Font("Arial", Font.ITALIC, 20));
             panel.add(laval5);
             JLabel laval6 = new JLabel("выполнения программы, либо оставте путь по умолчанию");
             laval6.setFont(new Font("Arial", Font.ITALIC, 20));
             panel.add(laval6);
 
-            JTextField tf3 = new JTextField( "output.txt",20);
+            JTextField tf3 = new JTextField( "output.txt",15);
+            tf3.setFont(new Font("Arial", Font.BOLD, 15));
             panel.add(tf3);
             JButton button =new JButton("Enter");
             panel.add(button);
@@ -209,7 +209,6 @@ button.addActionListener(new ActionListener() {
                     }
                 }
             });
-
             frame1.add(panel);
             panel.revalidate();
             frame1.setResizable(false);

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b808f0-2b12-4757-9fbf-d4cd911d1c93" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/encoded.txt" afterDir="false" />
+    <list default="true" id="f5b808f0-2b12-4757-9fbf-d4cd911d1c93" name="Changes" comment="replaced text files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoded.txt" beforeDir="false" afterPath="$PROJECT_DIR$/encoded.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/javaruch/cryptanalyzer/nesmelov/GuiStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javaruch/cryptanalyzer/nesmelov/GuiStart.java" afterDir="false" />
     </list>
@@ -60,6 +58,19 @@
   }
 }</component>
   <component name="RunManager" selected="Application.GuiStart">
+    <configuration name="GuiStart (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaruch.cryptanalyzer.nesmelov.GuiStart" />
+      <module name="cryptanalyzer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaruch.cryptanalyzer.nesmelov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuiStart (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaruch.cryptanalyzer.nesmelov.GuiStart" />
       <module name="cryptanalyzer" />
@@ -99,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuiStart (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaruch.cryptanalyzer.nesmelov.GuiStart" />
-      <module name="cryptanalyzer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaruch.cryptanalyzer.nesmelov.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GuiStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaruch.cryptanalyzer.nesmelov.GuiStart" />
       <module name="cryptanalyzer" />
@@ -166,19 +164,6 @@
     </configuration>
     <configuration name="GuiStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaruch.cryptanalyzer.nesmelov.GuiStart" />
-      <module name="cryptanalyzer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javaruch.cryptanalyzer.nesmelov.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Guiii (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javaruch.cryptanalyzer.nesmelov.Guiii" />
       <module name="cryptanalyzer" />
       <extension name="coverage">
         <pattern>
@@ -193,10 +178,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.GuiStart" />
-        <item itemvalue="Application.GuiStart (5)" />
         <item itemvalue="Application.GuiStart (4)" />
         <item itemvalue="Application.GuiStart (3)" />
         <item itemvalue="Application.GuiStart (2)" />
+        <item itemvalue="Application.GuiStart (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -223,14 +208,33 @@
       <option name="project" value="LOCAL" />
       <updated>1684143663487</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="replaced text files">
+      <created>1684181186424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684181186424</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add scrambler" />
     <MESSAGE value="add decoder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add decoder" />
+    <MESSAGE value="replaced text files" />
+    <option name="LAST_COMMIT_MESSAGE" value="replaced text files" />
   </component>
 </project>
